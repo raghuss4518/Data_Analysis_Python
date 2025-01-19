@@ -1,0 +1,23 @@
+p{
+    color: white;
+}
+
+.RP{
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+   }
+#G1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#B1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

@@ -1,0 +1,31 @@
+body{
+  min-height: 95vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #faf9f6;
+  margin:  50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+footer{
+  text-align: right;
+  color: midnightblue;
+}
+
+.title-imag {
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+#ima {
+    width: 45%;
+}
