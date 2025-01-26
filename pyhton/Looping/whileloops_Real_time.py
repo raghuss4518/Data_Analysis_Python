@@ -5,4 +5,4 @@ while num <= 13:
     total += num
     print(num)
     num += 1
-#print(total)
+print(total)
