@@ -8,3 +8,7 @@ data = pd.read_excel('D:/my-project/Data analysis/Data_Analysis/All-Serices/Pyth
 # Missing values
 missing_data = data.isnull().sum()
 print(missing_data)
+
+#To idntify all missing values
+missing_data1 = data.isnull()
+print(missing_data1)
