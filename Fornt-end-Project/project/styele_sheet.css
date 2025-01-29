@@ -3,9 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 0px 80px;
     background: #e3e6f3;
+    /*margin-top: 10px; */
+    /*margin-bottom: 10px; */
     box-shadow: 0 5PX 15px rgba(0, 0, 0, 0);
+}
+
+#Header a .log{
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+
 }
 
 #navbar{
@@ -17,6 +26,7 @@
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a{
@@ -24,8 +34,50 @@
     font-size: 16px;
     font-weight: 600;
     color: #1a1a1a;
+    transition: 0.3s ease;
 }
 
-#navbar li a:hover{
-    color: aqua;
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+
+#navbar li a.active::after{
+    content: "";
+    width:30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#second {   
+   /* background-image: url("image/istockphoto-1369227756-612x612.jpg"); */
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% reight 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#second h4{
+    padding-bottom: 15px;
+}
+
+#second h1{
+     color: #088178;
+}
+
+
+#second button{
+   background-image: url("image/shop-now-ecommerce-icon-call-action-button-offer-design-marketing-symbol_1280603-2475.avif");
+   background-color: transparent;
+   color: #088178;
+   border: 0;
+   padding: 14px 80px 14px 65px;
 }
