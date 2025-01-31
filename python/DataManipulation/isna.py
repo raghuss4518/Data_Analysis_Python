@@ -7,5 +7,9 @@ data = pd.read_excel('D:/my-project/Data analysis/Data_Analysis/All-Serices/Pyth
 #filter_data = data(data['Age'].isna([49, 17]))
 #print(filter)
 
-data = [data['Income'].isin(['63333','78889'])]
+data1 = [data['Income'].isin(['63333','78889'])]
 print(data)
+
+data2 = [data['Purchase_Channel'].isin(['Online'])]
+
+print(data2)
